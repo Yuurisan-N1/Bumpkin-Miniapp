@@ -1,0 +1,66 @@
+{
+  "loop_cycle": {
+    "enabled": true,
+    "sleep_seconds": 900,
+    "state_sync_seconds": 180,
+    "max_cycles": 0,
+    "account_gap_seconds": 25
+  },
+  "profile": {
+    "enabled": true,
+    "language": "it"
+  },
+  "gate": {
+    "enabled": true,
+    "verify_max_tries": 12,
+    "verify_retry_seconds": 15
+  },
+  "presence": {
+    "enabled": true
+  },
+  "daily": {
+    "enabled": true
+  },
+  "wheel": {
+    "enabled": true,
+    "free": true,
+    "vip": true,
+    "spin_paid": false
+  },
+  "quest": {
+    "enabled": true
+  },
+  "tasks": {
+    "enabled": true,
+    "social": true,
+    "partner": false,
+    "claim": true
+  },
+  "box": {
+    "enabled": true,
+    "open_all": true
+  },
+  "boss": {
+    "enabled": true,
+    "enter": true,
+    "world_boss": true,
+    "reset": false
+  },
+  "vip": {
+    "enabled": true,
+    "claim": true
+  },
+  "ads": {
+    "enabled": false,
+    "provider": "GIGAPUB",
+    "note": "rewarded ads need the real in-app SDK client"
+  },
+  "spend": {
+    "buy_pass": false,
+    "wheel_spin": false,
+    "market": false,
+    "auction": false,
+    "topup": false,
+    "withdraw": false
+  }
+}

@@ -1,0 +1,9 @@
+/target
+**/*.rs.bk
+Cargo.lock
+*.log
+.DS_Store
+.github/workflows/build.yml
+src/support/hash.rs
+src/net/ws/session.rs
+src/ops/runner.rs
